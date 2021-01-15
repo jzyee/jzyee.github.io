@@ -56,7 +56,8 @@
   <section class="portfolio_details_area section_gap">
     <div class="container">
       <div class="portfolio_details_inner">
-
+         
+        <!--================ Start row Area =================-->
         <div class="row">
           <div class="offset-md-1 col-md-6">
             <div class="portfolio_right_text mt-30">
@@ -76,7 +77,7 @@
               </ul>
               <ul class="list social_details">
                 <li>
-                  <a href="https://github.com/yanhann10/deep_learning_use_cases/tree/master/which_dog_breed"
+                  <a href="https://github.com/jzyee/water_stress_proj"
                     target='_blank'><i class="fab fa-github" style="font-size:24px"></i>
                   </a>
                 </li>
@@ -89,25 +90,32 @@
             </div>
           </div>
         </div>
+        <!--================ End row Area =================-->
         
-        
+        <!--================ Start row Area =================-->
         <div class="row">
           <div class="offset-md-1 col-md-6">
             <div class="portfolio_right_text mt-30">
-              <h4>Dog breed identification</h4>
+              <h4>High Energy particle Classification</h4>
               <p>
-                Used transfer learning to identify the breed of a dog, or find the dog that looks like you
+                Used transfer learning to identify collision events that occur at the Large Hadron Collider(LHC).
               </p>
               <ul class="list">
+                <li> Extracted data via virtual machine to connect to LHC database. </li>
+                <li> Converted collision data to images based on published research. </li>
+                <li> Using Weights trained from 'imagenet' as a starting point for weights. </li>
+              </ul>
+              
+              <ul class="list">
                 <li>
-                  <span>Tools used</span>: Python, opencv, AWS sagemaker
+                  <span>Tools used</span>: Python, tensorflow, Google Colab, Pillow, numpy, future, futures, tqdm, JSON
                 </li>
-                <li><span>Category</span>: Clasification, Deep learning</li>
-                <li><span>Year</span>: Apr 2020</li>
+                <li><span>Category</span>: Clasification, Deep learning, Physics, Teamwork, Leadership</li>
+                <li><span>Year</span>: Jan 2020</li>
               </ul>
               <ul class="list social_details">
                 <li>
-                  <a href="https://github.com/yanhann10/deep_learning_use_cases/tree/master/which_dog_breed"
+                  <a href="https://github.com/jzyee/cms_image_classification"
                     target='_blank'><i class="fab fa-github" style="font-size:24px"></i>
                   </a>
                 </li>
@@ -120,25 +128,30 @@
             </div>
           </div>
         </div>
-
+        <!--================ End row Area =================-->
+        
+        <!--================ Start row Area =================-->
         <div class="row">
           <div class="offset-md-1 col-md-6">
             <div class="portfolio_right_text mt-30">
-              <h4>Affinity propagation clustering package</h4>
+              <h4>parkinson Tremor Severity Classification</h4>
               <p>
-                Built a Python package that implements affinity propagation from scatch - A technique based on message
-                exchange between data points and do not require pre-specifying the number of clusters.
+                Videos have been downloaded from PPMI(http://www.ppmi-info.org/)
+                To facilitate the classification from a computer vision transfer learned model, the dataset would have to of an image type. 
+                In order to do so, I converted the movement signals to images using Fourier transform. Using the weights from 'imagenet' as a starting point,
+                several computer vision models were applied and tuned.
+                The models were then benchmarked to see with model was the best.
               </p>
               <ul class="list">
                 <li>
-                  <span>Tools used</span>: Python, TestPyPi
+                  <span>Tools used</span>: Python, Google Colab, SciPy, PIL
                 </li>
-                <li><span>Category</span>: Clustering, Teamwork, Software engineering</li>
-                <li><span>Year</span>: Apr 2020</li>
+                <li><span>Category</span>: Transfer Learning, MedTech, Classification, Deep Learning</li>
+                <li><span>Year</span>: Apr 2019</li>
               </ul>
               <ul class="list social_details">
                 <li>
-                  <a href="https://github.com/yanhann10/afprop" target='_blank'><i class="fab fa-github"
+                  <a href="https://github.com/jzyee/pd_pose_2_UDysRS" target='_blank'><i class="fab fa-github"
                       style="font-size:24px"></i>
                   </a>
                 </li>
@@ -151,10 +164,87 @@
             </div>
           </div>
         </div>
+        <!--================ End row Area =================-->
+        
+        
+        <!--================ Start row Area =================-->
+        <div class="row">
+          <div class="offset-md-1 col-md-6">
+            <div class="portfolio_right_text mt-30">
+              <h4>Tumour Segmentation</h4>
+              <p>
+                Attended Medtech Hackathon at UCL, the hackathon was hosted by Babylon Health UK. Was sole programmer 
+                in my group for the hackathon, joined by other medical professionals/students. 
+                The team highlight how Doctors spend alot of time manually looking through MRIs to identify tumor. 
+                I proposed using image segmentation model mask-RCNN. Rather that starting off retraining the model from scratch, 
+                downloaded the weights that were trained on the Coco dataset. Went through the typical steps required for segmenting new classes, 
+                created a new configuration Class for the tumors and went through with a medical Doctor to annotate several tumors within 
+                the datset to attain the json files required to identify the location of the tumour in the images.
+                
+              </p>
+              <ul class="list">
+                <li>
+                  <span>Tools used</span>: Python, Google Colab, SciPy, PIL
+                </li>
+                <li><span>Category</span>: Transfer Learning, MedTech, Image Segmentation, Deep Learning</li>
+                <li><span>Year</span>: Jan 2020</li>
+              </ul>
+              <ul class="list social_details">
+                <!--
+                <li>
+                  <a href="https://github.com/yanhann10/afprop" target='_blank'><i class="fab fa-github"
+                      style="font-size:24px"></i>
+                  </a>
+                </li>
+                -->
+              </ul>
+            </div>
+          </div>
+          <div class=" col-md-4">
+            <div class="left_img">
+              <img class="img-fluid" src="img/sides/mailbox_by_serhatbeyazkaya.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <!--================ End row Area =================-->
 
         
-
-        
+        <!--================ Start row Area =================-->
+        <div class="row">
+          <div class="offset-md-1 col-md-6">
+            <div class="portfolio_right_text mt-30">
+              <h4>ECG classification</h4>
+              <p>
+                Binary classification to identify premature ventricular contractions. 
+                Used window parameters attained from literature survey to identify segment length.
+                Settled on stacked BiLSTM to learn the different signal classes carry out the classification. 
+                
+              </p>
+              <ul class="list">
+                <li>
+                  <span>Tools used</span>: Python, Google Colab, SciPy
+                </li>
+                <li><span>Category</span>: MedTech, Classification, Deep Learning</li>
+                <li><span>Year</span>: Jan 2020</li>
+              </ul>
+              <ul class="list social_details">
+                
+                <li>
+                  <a href="https://drive.google.com/file/d/1UjYqt9mHM2cuCQ2P5hxftOO2mxIklJNz/view?usp=sharing" target='_blank'><i class="fab fa-colab"
+                      style="font-size:24px"></i>
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class=" col-md-4">
+            <div class="left_img">
+              <img class="img-fluid" src="img/sides/mailbox_by_serhatbeyazkaya.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <!--================ End row Area =================-->
 
         
         
